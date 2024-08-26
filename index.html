@@ -19,7 +19,8 @@
     </header>
     <section class="main">
         <h1>Мой личный сайт</h1>
-        <img src="./src/landscape-lake-nature-reflection-national-park-wilderness-Alps-tree-autumn-mountain-loch-mountainous-landforms-landform-body-of-water-mountain-range-3750x1200-px-704298 (1).jpg" alt="main photo" height="400px">
+        <video src="./src/1834216_Galaxy_Supernova_1280x720.mp4" width="900px" autoplay loop>Данное видео не загрузилось, а жаль...</video>
+        <!-- <img src="./src/landscape-lake-nature-reflection-national-park-wilderness-Alps-tree-autumn-mountain-loch-mountainous-landforms-landform-body-of-water-mountain-range-3750x1200-px-704298 (1).jpg" alt="main photo" height="400px"> -->
         <h2 class="main-subtitle">На этом сайте вы сможете узнать меня чуть лучше</h2>
     </section>
 
@@ -29,6 +30,8 @@
             <img src="./src/_MG_2770.JPG" alt="my photo" width="150px">
             <p>Привет! Добро пожаловать на мой сайт.<br>Меня зовут Ирина и я живу в прекрасном городе Санкт-Петербург.<br>Я веб-дизайнер и будущий frontend-разработчик</p>
         </div>
+        <p>А это одна из моих любимых песен ;-)</p>
+        <audio src="./src/cher-strong-enough-single-version.mp3" controls></audio>
     </section>
     <section id="education">
         <h2>Образование и опыт</h2>
@@ -42,6 +45,40 @@
     <section id="hobbies">
         <h2>Мои увлечения и хобби</h2>
         <p>Я обожаю путешествия. Была во многих страна Европы<br>Моей заветной мечтой в путешествиях является Азия. Хочу посетить Сеул, Токио, Гонконг.<br>Так же я являюсь заядлой дачницей. Всё лето с семьёй мы живем за городом, в доме, который построили в прошлом году</p>
+    </section>
+    <section id="meet">
+        <h2>Давай познакомимся поближе</h2>
+        <p>Расскажи немного о себе заполнив форму ниже, чтобы я знала, кто заходит ко мне на сайт</p>
+        <form action="/submit" method="post">
+            <label for="profession">Чем ты занимаешься?</label>
+            <select name="profession" id="profession">
+                <option value="web-design">веб-дизайнер</option>
+                <option value="frontend">фронтенд разработчик</option>
+                <option value="other">я далек от компьютеров</option>
+            </select><br>
+            <label for="city">Выберите город:</label>
+            <select name="city" id="city">
+                <option value="moscow">Москва</option>
+                <option value="saint-peterburg">Санкт-Петербург</option>
+                <option value="kazan">Казань</option>
+            </select><br>
+
+            <label for="">Выберите ваше хобби:</label><br>
+            <input type="checkbox" id="hobby1" name="hobby" value="reading">
+            <label for="hobby">Чтение</label>
+            <input type="checkbox" id="hobby2" name="hobby" value="swimming">
+            <label for="hobby2">Плавание</label>
+            <input type="checkbox" id="hobby3" name="hobby" value="painting">
+            <label for="hobby3">Рисование</label><br>
+
+            <label>Зачем зашли на сайт?</label><br>
+                <input type="radio" id="case" name="purpose" value="case">
+	            <label for="case">По делу</label><br>
+                <input type="radio" id="passed" name="purpose" value="passed">
+	            <label for="passed">Мимо проходил</label><br><br>
+
+            <input class="form-btn" type="submit" value="Отправить">
+        </form>
     </section>
     <section id="contacts">
         <h2>Связаться со мной</h2>

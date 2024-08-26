@@ -80,3 +80,25 @@ section {
     font-size: 12px;
     color: darkslategrey;
 }
+
+label {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+form {
+    border: 1px solid darkblue;
+    padding: 40px;
+    max-width: 500px;
+}
+
+.form-btn {
+    background-color: darkblue;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
