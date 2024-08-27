@@ -40,6 +40,21 @@ header {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 60px;
+    background-color: darkblue;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.imp-content {
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: darkblue;
+}
+
+.nav-link {
+    color: white;
 }
 
 .menu, .contacts-item {
@@ -79,6 +94,7 @@ section {
 .comment {
     font-size: 12px;
     color: darkslategrey;
+    padding-left: 60px;
 }
 
 label {
@@ -101,4 +117,19 @@ form {
     text-transform: uppercase;
     border-radius: 10px;
     padding: 10px 20px;
+}
+
+#contacts {
+    background-color: darkblue;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    margin-bottom: 20px;
+}
+
+.contacts-title {
+    color: white;
+}
+
+.contacts-link {
+    color: white;
 }
